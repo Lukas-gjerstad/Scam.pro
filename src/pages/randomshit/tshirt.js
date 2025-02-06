@@ -1,15 +1,18 @@
 import * as React from "react"
 import "./tshirt.css"
-import WifeBeater from "./WifeBeater.png"
+import App from "../app"
+import { useParams } from "react-router-dom";
 
-function Tshirt() {
+import { discordmode, ekitten, Zesty, emo, metaltshirt, saygex, stabbed, WifeBeater } from "../index";
+
+function Tshirt({ tShirts }) {
 
     return(
         <div className="tshirt">
-            <img src={WifeBeater}></img>
+            <img src={<></>}></img>
             <p>Wife Beater T-Shirt</p>
         </div>
     )
 }
-
-export default Tshirt
+ 
+export default Tshirt 

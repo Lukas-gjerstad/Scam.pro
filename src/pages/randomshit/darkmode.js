@@ -34,7 +34,6 @@ const DarkMode = () => {
       <button className="dark_mode_button" onClick={toggleTheme}>
         {isDarkMode ? <CiLight size={25}/> : <CiDark size={25}/>} 
       </button>
-      <p>{mode}</p>
     </div>
   );
   

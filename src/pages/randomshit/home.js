@@ -14,7 +14,6 @@ function Home() {
         <button className="mainPageButton">
             <CiHome size={25} onClick={onclickRoute}/>
         </button>
-        <p>Home</p>
     </div>   
     )
 }

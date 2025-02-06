@@ -1,12 +1,24 @@
-.Nav{
-    position: fixed;
-    top: 0;
-    bottom: 0;
+.nav{
+    width: 15%;
     height: 100%;
-    width: 170px;
     background-color: var(--other_color);
-    padding: 25px 20px;
-    left: 85%;
+    position: fixed;
+    right: 0;
+    bottom: 1%;
+}
+
+.nav:hover{
+    animation-name: sidebaran;
+    animation-duration: 4s;
+}
+
+@keyframes sidebaran {
+    0%{
+        background-color: black; right:0px; top:0px;
+    }
+    50%{
+        background-color: green; right: 20px; top:0px;
+    }
 }
 
 .navLinks{
@@ -14,7 +26,7 @@
     list-style-type: none;
     margin-top: 10px;
 }
-
-.navLinks li {
-    margin-bottom: 50px;
-}
+  
+  .navLinks li {
+      margin-bottom: 50px;
+  }

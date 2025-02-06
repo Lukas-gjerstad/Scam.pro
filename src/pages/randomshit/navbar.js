@@ -9,9 +9,9 @@ import ShoppingCartPage from "./shoppingCartPage"
 import MainPage from "../mainPage"
 
 
-function NavBar({ isShoppingCartPage}) {
+function NavBar({ isShoppingCartPage }) {
     return(
-        <navbar className= "Nav">
+        <navbar className= "nav">
             <ul className="navLinks">
                 <li><Settings/></li>
                 <li><DarkMode/></li> 
