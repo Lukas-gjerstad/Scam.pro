@@ -1,0 +1,12 @@
+ .tshirt {
+    padding: 10px;
+    margin-left: 20px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 20px;
+    border: solid, var(--body_color), 2px;
+    border-radius: 5px;
+    border-width: 3px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+ }

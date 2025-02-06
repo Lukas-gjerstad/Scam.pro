@@ -1,7 +1,7 @@
 import * as React from "react"
 import "./shoppingcart.css"
 import { CiShoppingCart } from "react-icons/ci";
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"; 
 
 function ShoppingCart() {
     const navigate = useNavigate()
