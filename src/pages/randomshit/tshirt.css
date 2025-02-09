@@ -1,7 +1,7 @@
  .tshirt {
     padding: 10px;
-    margin-left: 20px;
-    background-color: rgb(255, 0, 0);
+    margin-left: 30px;
+    background-color: var(--other_color);
     margin-top: 20px;
     border: solid, var(--body_color), 2px;
     border-radius: 5px;
@@ -10,3 +10,8 @@
     text-align: center;
     display: inline-block;
  } 
+ 
+ .tshirtImg {
+   width: 200px;
+   height: 350px;
+ }

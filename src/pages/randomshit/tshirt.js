@@ -3,14 +3,11 @@ import "./tshirt.css"
 import App from "../app"
 import { useParams } from "react-router-dom";
 
-import { discordmode, ekitten, Zesty, emo, metaltshirt, saygex, stabbed, WifeBeater } from "../index";
-
-function Tshirt({ tShirts }) {
-
+function Tshirt({tshirtImage, tshirtText}) {
     return(
         <div className="tshirt">
-            <img src={<></>}></img>
-            <p>Wife Beater T-Shirt</p>
+            <img className="tshirtImg" src={tshirtImage}></img>
+            <p>{tshirtText}</p>
         </div>
     )
 }
